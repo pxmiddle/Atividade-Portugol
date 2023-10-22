@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vet[10], soma = 0, media, temp
+		inteiro vet[10], soma = 0
+		real media
 		para(inteiro i =0; i < 10; i++){
 			escreva("Insira os numeros: ")
 			leia(vet[i])
@@ -22,7 +23,7 @@ programa
 				escreva(vet[x], " ")
 			}
 		}
-		media =soma / 10
+		media = soma / 10.0
 		escreva("\n soma: ", soma)
 		escreva("\n media: ", media)
 		
@@ -33,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 542; 
+ * @POSICAO-CURSOR = 539; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
